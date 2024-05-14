@@ -1,1 +1,3 @@
-# Address-Extraction-from-Text-Data
+# Address Extraction from Text Data
+<h2>Description</h2>
+This Python script reads an Excel file containing text data, applies regular expressions to extract address information, and writes the results to a new Excel file. It defines a set of common address suffix patterns, such as "avenue" and "boulevard," and constructs a regex pattern to match these suffixes. The script processes each row in the input DataFrame, extracting addresses from a specified text column using the regex pattern. Extracted addresses are stored in a new column, and the updated DataFrame is saved to an output Excel file, providing a clean and automated way to parse address information from large text datasets.
